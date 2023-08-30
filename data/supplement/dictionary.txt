@@ -1,0 +1,30 @@
+dictionary
+
+casetype: How CCIJ first came into contact with the person. This is a processed value taking information from the casemanagment system and returning the present value.
+
+lawlab_opened: The date the client record was created in the case managment system. Generally within 2 weeks of the date the person was detained by ICE, with some exceptions.
+
+lawlab_opened: The date the client record was closed in the case management system. Records are closed after release. Either through deportation, bond, or winning their case in immigration court.
+
+date_detained: The date of ICE arrest reported during intake by the detained person.
+
+gender: Gender.
+
+DOB: Date of birth. 
+
+country_of_birth: Country of birth.
+
+city: The city where the detained person lived before ICE detention and in most cases before their non-immigration prison sentence.
+
+county: Same as city. 
+
+state: Same as city.
+
+zip: Same as city. 
+
+language: The primary language spoken by the detained person. 
+race: The race of the detained person. The value displayed is a processed value to align values with US government census groups, and the groups provided by the new case managment / database system. 
+
+immigration_status: The immigration status of the detained person provided at the time of intake. 
+
+ice_country_of_birth: Values from the "country_of_birth" field processed to align with the ICE locator country of birth picklist. 
